@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="./css/output.css" />
     <title>Furniro</title>
   </head>
-  <body class="min-h-[5000px] font-poppins">
-    <nav class="bg-white w-full py-[25px] fixed z-[999] top-0 left-0">
+  <body class="font-poppins overflow-x-hidden">
+    <nav class="bg-white w-full py-[15px] fixed z-[999] top-0 left-0">
       <!-- Content Container -->
       <div
         class="maxContainer lg:pl-[50px] pl-[40px] pr-[40px] lg:pr-[100px] flex items-center justify-between"
@@ -113,11 +113,38 @@
     >
       <h2 class="text-[32px] text-center font-bold text-black">Our Products</h2>
       <div class="grid md:grid-cols-2 lg:grid-cols-4 mt-[32px] gap-[32px]">
-        <div>
+        <div class="group relative">
+          <div
+            class="group-hover:bg-black/60 bg-transparent flex justify-center items-center transition-all z-10 absolute h-full w-full gap-[24px] top-0 left-0"
+          >
+            <div class="group-hover:flex hidden flex-col gap-[20px]">
+              <button
+                class="text-primary bg-white px-[52px] py-[12px] font-medium"
+              >
+                Add to cart
+              </button>
+              <div class="flex gap-[15px]">
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/share.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Share</span>
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/compare.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]"
+                    >Compare</span
+                  >
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/likes.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Like</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="relative">
             <img src="./img/productimage-1.png" alt="product" class="w-full" />
             <div
-              class="rounded-full bg-[#E97171] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
+              class="rounded-full z-[11] bg-[#E97171] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
             >
               <span class="text-white text-[14px] font-medium">-30%</span>
             </div>
@@ -130,16 +157,43 @@
               Stylish cafe chair
             </p>
             <div class="flex items-center gap-[10px]">
-              <span class="text-[20px] font-semibold text-black"
+              <span class="text-[16px] font-semibold text-black"
                 >Rp 2.500.000</span
               >
-              <span class="text-[16px] text-[#B0B0B0] line-through"
+              <span class="text-[14px] text-[#B0B0B0] line-through"
                 >Rp 3.500.000</span
               >
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative group">
+          <div
+            class="group-hover:bg-black/60 bg-transparent flex justify-center items-center transition-all z-10 absolute h-full w-full gap-[24px] top-0 left-0"
+          >
+            <div class="group-hover:flex hidden flex-col gap-[20px]">
+              <button
+                class="text-primary bg-white px-[52px] py-[12px] font-medium"
+              >
+                Add to cart
+              </button>
+              <div class="flex gap-[15px]">
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/share.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Share</span>
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/compare.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]"
+                    >Compare</span
+                  >
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/likes.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Like</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="relative">
             <img src="./img/productimage-2.png" alt="product" class="w-full" />
           </div>
@@ -151,17 +205,44 @@
               Stylish cafe chair
             </p>
             <div class="flex items-center gap-[10px]">
-              <span class="text-[20px] font-semibold text-black"
+              <span class="text-[16px] font-semibold text-black"
                 >Rp 2.500.000</span
               >
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative group">
+          <div
+            class="group-hover:bg-black/60 bg-transparent flex justify-center items-center transition-all z-10 absolute h-full w-full gap-[24px] top-0 left-0"
+          >
+            <div class="group-hover:flex hidden flex-col gap-[20px]">
+              <button
+                class="text-primary bg-white px-[52px] py-[12px] font-medium"
+              >
+                Add to cart
+              </button>
+              <div class="flex gap-[15px]">
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/share.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Share</span>
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/compare.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]"
+                    >Compare</span
+                  >
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/likes.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Like</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="relative">
             <img src="./img/productimage-3.png" alt="product" class="w-full" />
             <div
-              class="rounded-full bg-[#E97171] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
+              class="rounded-full z-[11] bg-[#E97171] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
             >
               <span class="text-white text-[14px] font-medium">-50%</span>
             </div>
@@ -174,16 +255,43 @@
               Luxury big sofa
             </p>
             <div class="flex items-center gap-[10px]">
-              <span class="text-[20px] font-semibold text-black"
+              <span class="text-[16px] font-semibold text-black"
                 >Rp 7.000.000</span
               >
-              <span class="text-[16px] text-[#B0B0B0] line-through"
+              <span class="text-[14px] text-[#B0B0B0] line-through"
                 >Rp 14.000.000</span
               >
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative group">
+          <div
+            class="group-hover:bg-black/60 bg-transparent flex justify-center items-center transition-all z-10 absolute h-full w-full gap-[24px] top-0 left-0"
+          >
+            <div class="group-hover:flex hidden flex-col gap-[20px]">
+              <button
+                class="text-primary bg-white px-[52px] py-[12px] font-medium"
+              >
+                Add to cart
+              </button>
+              <div class="flex gap-[15px]">
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/share.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Share</span>
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/compare.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]"
+                    >Compare</span
+                  >
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/likes.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Like</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="relative">
             <img src="./img/productimage-4.png" alt="product" class="w-full" />
             <div
@@ -200,14 +308,41 @@
               Outdoor bar table and stool
             </p>
             <div class="flex items-center gap-[10px]">
-              <span class="text-[20px] font-semibold text-black"
+              <span class="text-[16px] font-semibold text-black"
                 >Rp 500.000</span
               >
               >
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative group">
+          <div
+            class="group-hover:bg-black/60 bg-transparent flex justify-center items-center transition-all z-10 absolute h-full w-full gap-[24px] top-0 left-0"
+          >
+            <div class="group-hover:flex hidden flex-col gap-[20px]">
+              <button
+                class="text-primary bg-white px-[52px] py-[12px] font-medium"
+              >
+                Add to cart
+              </button>
+              <div class="flex gap-[15px]">
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/share.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Share</span>
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/compare.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]"
+                    >Compare</span
+                  >
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/likes.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Like</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="relative">
             <img src="./img/productimage-5.png" alt="product" class="w-full" />
           </div>
@@ -223,11 +358,38 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative group">
+          <div
+            class="group-hover:bg-black/60 bg-transparent flex justify-center items-center transition-all z-10 absolute h-full w-full gap-[24px] top-0 left-0"
+          >
+            <div class="group-hover:flex hidden flex-col gap-[20px]">
+              <button
+                class="text-primary bg-white px-[52px] py-[12px] font-medium"
+              >
+                Add to cart
+              </button>
+              <div class="flex gap-[15px]">
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/share.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Share</span>
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/compare.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]"
+                    >Compare</span
+                  >
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/likes.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Like</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="relative">
             <img src="./img/productimage-6.png" alt="product" class="w-full" />
             <div
-              class="rounded-full bg-[#2EC1AC] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
+              class="rounded-full z-[11] bg-[#2EC1AC] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
             >
               <span class="text-white text-[14px] font-medium">NEW</span>
             </div>
@@ -238,17 +400,44 @@
             </h3>
             <p class="text-[#898989] font-medium text-[16px]">Small mug</p>
             <div class="flex items-center gap-[10px]">
-              <span class="text-[20px] font-semibold text-black"
+              <span class="text-[16px] font-semibold text-black"
                 >Rp 150.000</span
               >
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative group">
+          <div
+            class="group-hover:bg-black/60 bg-transparent flex justify-center items-center transition-all z-10 absolute h-full w-full gap-[24px] top-0 left-0"
+          >
+            <div class="group-hover:flex hidden flex-col gap-[20px]">
+              <button
+                class="text-primary bg-white px-[52px] py-[12px] font-medium"
+              >
+                Add to cart
+              </button>
+              <div class="flex gap-[15px]">
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/share.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Share</span>
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/compare.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]"
+                    >Compare</span
+                  >
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/likes.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Like</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="relative">
             <img src="./img/productimage-7.png" alt="product" class="w-full" />
             <div
-              class="rounded-full bg-[#E97171] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
+              class="rounded-full z-[11] bg-[#E97171] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
             >
               <span class="text-white text-[14px] font-medium">-50%</span>
             </div>
@@ -259,20 +448,47 @@
             </h3>
             <p class="text-[#898989] font-medium text-[16px]">Cute bed set</p>
             <div class="flex items-center gap-[10px]">
-              <span class="text-[20px] font-semibold text-black"
+              <span class="text-[16px] font-semibold text-black"
                 >Rp 7.000.000</span
               >
-              <span class="text-[16px] text-[#B0B0B0] line-through"
+              <span class="text-[14px] text-[#B0B0B0] line-through"
                 >Rp 14.000.000</span
               >
             </div>
           </div>
         </div>
-        <div>
+        <div class="relative group">
+          <div
+            class="group-hover:bg-black/60 bg-transparent flex justify-center items-center transition-all z-10 absolute h-full w-full gap-[24px] top-0 left-0"
+          >
+            <div class="group-hover:flex hidden flex-col gap-[20px]">
+              <button
+                class="text-primary bg-white px-[52px] py-[12px] font-medium"
+              >
+                Add to cart
+              </button>
+              <div class="flex gap-[15px]">
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/share.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Share</span>
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/compare.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]"
+                    >Compare</span
+                  >
+                </div>
+                <div class="flex gap-[2px] items-center">
+                  <img src="./img/likes.svg" alt="share" />
+                  <span class="font-medium text-white text-[16px]">Like</span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="relative">
             <img src="./img/productimage-8.png" alt="product" class="w-full" />
             <div
-              class="rounded-full bg-[#2EC1AC] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
+              class="rounded-full z-[11] bg-[#2EC1AC] w-[40px] flex items-center justify-center h-[40px] absolute top-5 right-5"
             >
               <span class="text-white text-[14px] font-medium">NEW</span>
             </div>
@@ -285,7 +501,7 @@
               Minimalist flower pot
             </p>
             <div class="flex items-center gap-[10px]">
-              <span class="text-[20px] font-semibold text-black"
+              <span class="text-[16px] font-semibold text-black"
                 >Rp 500.000</span
               >
             </div>
@@ -299,25 +515,46 @@
       </button>
     </section>
     <section
-      class="py-[44px] flex justify-between items-center bg-secondaryLight h-[670px] w-full pl-[100px]"
+      class="py-[44px] flex relative justify-between items-center bg-secondaryLight h-[670px] w-full pl-[100px]"
     >
-      <article>
-        <h2>50+ Beautiful rooms inspiration</h2>
-        <p class="max-w-[368px]">
+      <article class="max-w-[368px]">
+        <h2 class="text-black font-bold text-[40px] leading-[120%]">
+          50+ Beautiful rooms inspiration
+        </h2>
+        <p class="mt-[5px] text-[#616161] text-[16px] font-medium">
           Our designer already made a lot of beautiful prototipe of rooms that
           inspire you
         </p>
-        <button class="mt-[20px] bg-primary px-[36px] py-[12px]">
+        <button
+          class="mt-[20px] text-white font-semibold bg-primary px-[36px] py-[12px]"
+        >
           Explore More
         </button>
       </article>
-      <aside class="relative flex gap-[20px]">
+      <aside class="absolute -right-[350px] flex gap-[20px]">
         <div class="relative">
           <img
             src="./img/inspirationimg-1.png"
             alt="inpiration"
             class="w-[404px] h-[582px]"
           />
+          <div class="absolute bottom-5 left-5 flex items-end">
+            <div
+              class="py-[32px] pl-[32px] pr-[17px] bg-white backdrop-blur-sm bg-opacity-70"
+            >
+              <div class="flex items-center mb-[8px] gap-[8px]">
+                <span>01</span>
+                <div class="bg-black w-[25px] h-[1px]"></div>
+                <span>Bed Room </span>
+              </div>
+              <h3 class="text-black text-[28px] font-semibold leading-[120%]">
+                Inner Peace
+              </h3>
+            </div>
+            <div class="p-[12px] bg-primary h-fit">
+              <img src="./img/right-2.svg" alt="right" />
+            </div>
+          </div>
         </div>
         <img
           src="./img/inspirationimg-2.png"
